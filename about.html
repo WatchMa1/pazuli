@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pazuli-Website</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/about.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            appearance: none;
+            background: none;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container d-flex flex-column position-relative">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-css position-fixed w-100 border-bottom border-dark pb-5 pe-0 pt-p" style="z-index: 100;">
+            <div class="d-flex w-100 justify-content-between ps-5 pe-0 pt-0">
+              <a class="navbar-brand mt-0 pt-0 " href="index.html">                
+                <img class="logo-copy-png-1" src="./assets/images/logo-copy-png-10.png" />
+              </a>
+              <button class="navbar-toggler mb-5 mt-3 me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                </ul>
+                <button class="button-new h-100 border-bottom border-dark" style="z-index: 0;" type="submit"  onclick="scheduleCall()">Get in touch</button>
+                
+              </div>
+            </div>
+          </nav>
+        <div id="hero" class="prod-hero-container p-5">
+            <div class="row">
+                <div class="left-hero col-7 ps-5">
+                    <div class="text-wrapper-hero pb-4">About Us</div>
+                    <p class="hero-parag">
+                        Founded with a vision to revolutionize the insurance brokerage industry, Pazuli has emerged as a
+                        beacon of trust and reliability in the market. Our journey began with a simple yet powerful
+                        mission: to empower individuals and businesses with the knowledge and resources needed to make
+                        informed insurance decisions. With years of experience and a deep understanding of the insurance
+                        landscape, Pazuli has become synonymous with excellence, innovation, and customer-centricity.
+                    </p>
+                </div>
+                <div class="right-hero col-5">
+                    <div class="frame-hero">
+                        <img class="hero-img" src="./assets/images/62.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+
+                    <div class="text-wrapper-head"> Our <span class="span">Vision</span> </div>
+
+                    <p class="text-wrapper-parag pe-4">
+                        At Pazuli, our vision is to redefine the insurance brokerage industry by providing innovative
+                        solutions, unparalleled service, and unwavering integrity. We aspire to be the trusted partner
+                        of choice for individuals and businesses seeking comprehensive insurance coverage and expert
+                        advice.
+                    </p>
+                </div>
+                <div class="col-6 ps-5 ">
+
+                    <div class="text-wrapper-head"> Our <span class="span">Mission</span> </div>
+                    <p class="text-wrapper-parag pe-4">
+                        Our mission at Pazuli is to empower our clients with the knowledge, resources, and support they
+                        need to protect their assets, achieve their financial goals, and navigate life's uncertainties
+                        with confidence. We are committed to delivering personalized insurance solutions, exceptional
+                        service, and peace of mind to every client we serve.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="black-yellow-container d-flex">
+            <div class="right-yellow ps-5">
+                <div class="text-wrapper-head pb-3"> Our <span class="span"><br>Core Values</span> </div>
+                <p class="text-wrapper-parag pe-4">
+                    At Pazuli, our core values are encapsulated in the acronym ICE: Integrity, Care, and Excellence.
+                    These values guide every aspect of our operations, ensuring that we uphold the highest standards of
+                    honesty, transparency, and ethical behavior (Integrity). We deeply care about our clients,
+                    employees, and communities, striving to make a positive impact in their lives through our actions
+                    and services (Care). Our commitment to excellence drives us to continuously raise the bar for
+                    service quality, professionalism, and customer satisfaction (Excellence). At Pazuli, ICE isn't just
+                    a set of values; it's the foundation of everything we do, shaping our culture, decisions, and
+                    interactions with stakeholders.
+                </p>
+            </div>
+            <div class="right-white">
+                <div class="containers d-flex flex-column justify-content-between">
+                    <div class="first-cont d-flex">
+                        <div class="circle">
+                            <img src="./assets/images/Ellipse 1.svg" alt="">
+                        </div>
+                        <div class="content ps-4">
+                            <h2 class="cont-header">Integrity</h2>
+                            <p class="text-wrapper-parag-white">We conduct ourselves with the highest standards of
+                                honesty, transparency, and ethical behavior in all our interactions.</p>
+                        </div>
+                    </div>
+                    <div class="second-cont d-flex pt-5">
+                        <div class="circle">
+                            <img src="./assets/images/Ellipse 1.svg" alt="">
+                        </div>
+                        <div class="content ps-4">
+                            <h2 class="cont-header">Care</h2>
+                            <p class="text-wrapper-parag-white">We genuinely care about the well-being and success of
+                                our clients, employees, and communities, striving to make a positive difference in their
+                                lives through our actions and services.</p>
+                        </div>
+                    </div>
+                    <div class="third-cont d-flex pt-5">
+                        <div class="circle">
+                            <img src="./assets/images/Ellipse 1.svg" alt="">
+                        </div>
+                        <div class="content ps-4">
+                            <h2 class="cont-header">Excellence</h2>
+                            <p class="text-wrapper-parag-white">We are dedicated to excellence in everything we do,
+                                continuously raising the bar for service quality, professionalism, and customer
+                                satisfaction.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="our-team">
+            <div class="d-flex justify-content-center pb-5">
+                <p class="text-wrapper-team text-align-center">Our Team</p>
+            </div>
+            <div class="container">
+                            <div class="row">
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="member-container d-flex flex-column">
+                        <img src="./assets/images/louis 2.png" alt="" class="person">
+                        <div class="details">
+                            <h2 class="member-name">Louis Zulu</h2>
+                            <h3 class="member-title">Chief Executive Officer</h3>
+                            <p class="member-parag">Vested with over 30 years of experience in insurance and employee
+                                benefits management, Louis Zulu brings a wealth of knowledge and expertise to his role
+                                as Chief Executive Officer at Pazuli. With a proven track record of leadership,
+                                strategic vision, and client advocacy, Louis is dedicated to driving Pazuli's growth and
+                                success while delivering unparalleled value to our clients.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="member-container d-flex flex-column">
+
+                        <div class="person"></div>
+                        <div class="details">
+                            <h2 class="member-name">Abraham Lesa</h2>
+                            <h3 class="member-title">Broking Manager</h3>
+                            <p class="member-parag">An accomplished broker with over 15 years of experience in the
+                                insurance broking fraternity, Abraham Lesa plays a pivotal role as Broking Manager at
+                                Pazuli. With his extensive industry knowledge, strong leadership skills, and commitment
+                                to excellence, Abraham oversees our brokerage operations, ensuring that we deliver
+                                optimal solutions and service to our clients.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="key-assos p-5">
+            <div class="d-flex align-items-center flex-column">
+                <div class="text-wrapper-head-key"> Our <span class="span">Key Associates</span> </div>
+                <p class="text-wrapper-key pe-4">
+                    We are proud members of the Insurance Brokers Association
+                    of Zambia (IBAZ) and the Zambia Public Procurement Authority
+                    (ZPPA), enhancing our commitment to professionalism and
+                    industry best practices.
+                </p>
+            </div>
+        </div>
+        <div class="gold-contact d-flex p-5" id="schedule-call">
+            <div class="row ">
+                <div class="col-6 right-contact d-flex flex-column justify-content-center">
+                    <p class="choose mb-5">Choose Pazuli as your trusted partner!</p>
+                    <div class="d-flext justify-content-center">
+                        <button class="button-bw mt-5">
+                            Schedule a call
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <div class="info-pazuli-com">info@pazuli.com</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer" class="footer p-5">
+        <div class="row">
+            <div class="col-4">
+                <p class="we-re-redefining-what-it-means-to-insure">
+                    We’re redefining what it means to insure.
+                </p>
+                <div class="d-flex pt-5 ps-5">
+                    <img class="logo-copy-png-2" src="./assets/images/logo-copy-png-20.png" />
+                </div>
+
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="reno">
+                                Reno simplifies the chaos and costs of construction by bringing
+                                design, sourcing, and vetted contractors all under one roof.
+                            </div>
+                            <div class="reno-2021">© Reno 2021</div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <ul class="options">
+                            <div class="rule"></div>
+                            <li class="bathrooms">Bathrooms</li>
+                            <li class="kitchens">Kitchens</li>
+                            <li class="backyards">Backyards</li>
+                            <li class="basements">Basements</li>
+                            <li class="how-it-works">How it works</li>
+                            <li class="gallery2">Gallery</li>
+                            <li class="faq">FAQ</li>
+                            <li class="guides">Guides</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="_1-800-234-3432">1 800 234 3432</div>
+                            <div class="hello-reno-com">hello@reno.com</div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="terms-of-use">Terms of Use</div>
+                            <div class="privacy-policy">Privacy Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function scheduleCall() {
+            var targetSection = document.getElementById('footer');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+    </script>
+</body>
+
+</html>

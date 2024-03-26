@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pazuli-Website</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/services.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-5/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            appearance: none;
+            background: none;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container d-flex flex-column position-relative">
+        <div class="nav">
+            <div class="ms-5">
+                <img class="logo-copy-png-1" src="./assets/images/logo-copy-png-10.png" />
+            </div>
+            <div class="left">
+                <div class="nav-items">
+                    <a href="index.html" class="home">Home</a>
+                    <a href="services.html" class="services">Services</a>
+                    <a href="about.html" class="about-us">About Us</a>
+                    <a href="Products.html" class="products">Products</a>
+                </div>
+            </div>
+            <div class="right">
+                <button class="button-new" onclick="scheduleCall()">
+                    <div class="get-in-touch">Get In Touch</div>
+                </button>
+            </div>
+        </div>
+        <div id="hero" class="prod-hero-container p-5">
+            <div class="row">
+                <div class="left-hero col-6 ps-5">
+                    <div class="text-wrapper-hero pb-4">Our Services</div>
+                    <p class="hero-parag">
+                        Financial confidence starts here: Pazuli Private brokers — Securing Better Tomorrow
+                    </p>
+                </div>
+
+                <div class="right-hero col-6">
+                        <img class="hero-img" src="./assets/images/68.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="services" class="services-container d-flex flex-column align-items-center ps-5 pe-5 pt-5 pb-0">
+            <p class="services-heading pt-5">Our Services</p>
+            <div class="service-container1  d-flex row mt-5">
+                <div class="col-6 d-flex justify-content-end pe-4 bathroom">
+                    <div class="bathroom-card card">
+                        <img class="process" src="./assets/images/process-011.png" />
+                        <div class="details">
+                            <div class="container">
+                                <p class="card-title pb-3">Insurance Brokerage</p>
+                                <p class="build">
+                                    As experienced brokers, we provide expert guidance and support to our clients in navigating the complexities of the insurance landscape. From risk assessment to policy selection, we help our clients find the right insurance solutions tailored to their unique requirements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ps-4 kitchen">
+                    <div class="kitchen-card card">
+                        <img class="process" src="./assets/images/66.png" />
+                        <div class="details">
+                            <div class="container">
+                                <p class="card-title pb-3">Risk Management</p>
+                                <p class="build">
+                                    We understand the importance of mitigating risks effectively. Our risk management services encompass thorough assessments, strategic planning, and proactive measures to protect our clients' interests and assets
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end pe-4 backyard">
+                    <div class="backyard-card card">
+                        <img class="process" src="./assets/images/process-012.png" />
+                        <div class="details">
+                            <div class="container">
+                                <p class="card-title pb-3">Financial Advisory</p>
+                                <p class="build">
+                                    Beyond insurance, we provide holistic financial advisory services aimed at helping our clients achieve their long-term financial goals. Whether retirement planning, investment management, or wealth preservation, our expert advisors offer personalized guidance to support our clients' financial journey.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ps-4 tbd">
+                    <div class="tbd-card card">
+                        <img class="process" src="./assets/images/60.png" />
+                        <div class="details">
+                            <div class="container">
+                                <p class="card-title pb-3">Claims Assistance</p>
+                                <p class="build">
+                                    In the event of a claim, Pazuli is committed to providing prompt and efficient claims assistance to our clients. Our dedicated team ensures a seamless claims process, advocating on behalf of our clients to maximize their benefits and expedite claims resolution.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gold-contact d-flex p-5" id="schedule-call">
+            <div class="row ">
+                <div class="col-6 right-contact d-flex flex-column justify-content-center">
+                    <p class="choose mb-5">Choose Pazuli as your trusted partner!</p>
+                    <div class="d-flext justify-content-center">
+                        <button class="button-bw mt-5">
+                            Schedule a call
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex flex-column justify-content-center">
+                    <div class="info-pazuli-com">info@pazuli.com</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer" class="footer p-5">
+        <div class="row">
+            <div class="col-4">
+                <p class="we-re-redefining-what-it-means-to-insure">
+                    We’re redefining what it means to insure.
+                </p>
+                <div class="d-flex pt-5 ps-5">
+                    <img class="logo-copy-png-2" src="./assets/images/logo-copy-png-20.png" />
+                </div>
+
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="reno">
+                                Reno simplifies the chaos and costs of construction by bringing
+                                design, sourcing, and vetted contractors all under one roof.
+                            </div>
+                            <div class="reno-2021">© Reno 2021</div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <ul class="options">
+                            <div class="rule"></div>
+                            <li class="bathrooms">Bathrooms</li>
+                            <li class="kitchens">Kitchens</li>
+                            <li class="backyards">Backyards</li>
+                            <li class="basements">Basements</li>
+                            <li class="how-it-works">How it works</li>
+                            <li class="gallery2">Gallery</li>
+                            <li class="faq">FAQ</li>
+                            <li class="guides">Guides</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="_1-800-234-3432">1 800 234 3432</div>
+                            <div class="hello-reno-com">hello@reno.com</div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="terms-of-use">Terms of Use</div>
+                            <div class="privacy-policy">Privacy Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+                function scheduleCall() {
+            var targetSection = document.getElementById('footer');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>

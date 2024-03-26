@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pazuli-Website</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/product.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-5/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            appearance: none;
+            background: none;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container d-flex flex-column position-relative">
+        <div class="nav">
+            <div class="ms-5">
+                <img class="logo-copy-png-1" src="./assets/images/logo-copy-png-10.png" />
+            </div>
+            <div class="left">
+                <div class="nav-items">
+                    <a href="index.html" class="home">Home</a>
+                    <a href="services.html" class="services">Services</a>
+                    <a href="about.html" class="about-us">About Us</a>
+                    <a href="Products.html" class="products">Products</a>
+                </div>
+            </div>
+            <div class="right">
+                <button class="button-new" onclick="scheduleCall()">
+                    <div class="get-in-touch">Get In Touch</div>
+                </button>
+            </div>
+        </div>
+        <div id="hero" class="prod-hero-container p-5">
+            <div class="row">
+                <div class="left-hero col-7 ps-5">
+                    <div class="text-wrapper-hero pb-5">Our Products</div>
+                    <p class="at-pazuli-we-offer-a">
+                        At Pazuli, we offer a diverse portfolio of insurance and financial products tailored to meet our
+                        clients&#39; unique needs and preferences. Our range of products includes:
+                    </p>
+                </div>
+
+                <div class="right-hero col-5">
+                    <div class="frame-hero">
+                        <img class="hero-img" src="./assets/images/62.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/50.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Bond Securities</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Unlock the potential of secure investments with Pazuli&#39;s Bond Securities. Enjoy a diverse
+                        range of
+                        bond options, competitive yields, and transparent investment processes. Discover the unique
+                        features that
+                        set our Bond Securities apart and pave the way for a stable financial future.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Motor insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Drive with confidence knowing Pazuli's Motor Insurance has you covered on every journey. Our comprehensive coverage options shield you from unexpected road incidents, ensuring you have the peace of mind to focus on the road ahead.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/65.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame ">
+                        <img class="img-yellow" src="./assets/images/process-030.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Medical Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Your health is your wealth, and Pazuli's Medical Insurance is your shield. Explore our range of health coverage options, prioritizing your well-being and providing access to quality care when you need it most.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Life insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Cultivate your peace of mind with Pazuli's agriculture insurance solutions. Designed to safeguard farmers and agricultural businesses against the risks inherent in farming operations, our insurance products provide vital protection for crops, livestock, equipment, and more.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/25.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame ">
+                        <img class="img-yellow" src="./assets/images/66.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Accident Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Be prepared for life's unexpected twists and turns with Pazuli's accident insurance. Our comprehensive coverage options ensure that you and your loved ones are financially protected in the event of unforeseen accidents, providing peace of mind when you need it most.Your health is your wealth, and Pazuli's Medical Insurance is your shield. Explore our range of health coverage options, prioritizing your well-being and providing access to quality care when you need it most.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Agriculture Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Cultivate your peace of mind with Pazuli's agriculture insurance solutions. Designed to safeguard farmers and agricultural businesses against the risks inherent in farming operations, our insurance products provide vital protection for crops, livestock, equipment, and more.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/61.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame ">
+                        <img class="img-yellow" src="./assets/images/67.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Engineering Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Build a solid foundation for your projects with Pazuli's engineering insurance. From construction to infrastructure development, our insurance solutions provide comprehensive coverage against risks such as construction defects, equipment breakdowns, and project delays, ensuring the success and profitability of your ventures.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Aviation Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Soar to new heights with confidence, knowing that Pazuli's aviation insurance has you covered. Whether you're a private pilot, a commercial airline, or an aviation business, our tailored insurance solutions offer comprehensive coverage for aircraft, passengers, and operations.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/63.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame ">
+                        <img class="img-yellow" src="./assets/images/60.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Liability Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Protect yourself and your assets from legal liabilities with Pazuli's liability insurance. Whether you're a business owner, a professional, or an individual, our insurance products offer essential coverage against third-party claims for bodily injury, property damage, and other liabilities.   
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Marine Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Navigate the unpredictable seas with confidence, thanks to Pazuli's marine insurance solutions. From cargo shipments to vessel operations, our comprehensive coverage options protect maritime businesses and operators against the risks of marine transport, ensuring smooth sailing and peace of mind.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/64.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row justify-content-center align-items-center pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="frame ">
+                        <img class="img-yellow" src="./assets/images/40.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Travel Insurance</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Embark on your adventures worry-free with Pazuli's travel insurance. Whether you're traveling for business or pleasure, our insurance products provide comprehensive coverage against travel-related risks such as trip cancellations, medical emergencies, and lost luggage, ensuring a stress-free journey wherever you go.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="first-yellow" class="white-container p-5">
+            <div class="row justify-content-center align-items-center pt-5">
+                <div class="col-6 ">
+                    <div class="text-wrapper-header pb-3">Pension Plans</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Secure your retirement with Pazuli's pension plans. Designed to help you build a nest egg for your golden years, our retirement savings products offer tax advantages, investment growth opportunities, and flexible withdrawal options, ensuring financial security and peace of mind during your retirement years.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="frame d-flex just">
+                        <img class="img-yellow" src="./assets/images/55.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="border-top-solid"></div>
+        <div id="first-yellow" class="white-container-with-boarder p-5">
+            <div class="row ps-4 pb-5">
+                    <div class="text-wrapper-hero pb-4">Specialized Products</div>
+                    <p class="text-wrapper-last-parag pe-4">
+                        At Pazuli, we go beyond traditional insurance offerings to provide specialized products tailored <br> to meet our clients' unique needs. Our range of specialized products includes:
+                    </p>
+            </div>
+        </div>
+        <div id="first-yellow" class="yellow-container p-5">
+            <div class="row pt-5 pb-5">
+
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Profit sharing policies</div>
+                    <p class="text-wrapper-parag pe-4">
+                        These policies enable clients to participate in the profits generated by their insurance policies, offering an additional financial incentive and fostering a partnership between the insurer and the insured. This collaborative approach strengthens the bond between both parties and encourages mutual success in navigating financial risks.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <div class="text-wrapper-header">Packaged Policies</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Embark on your adventures worry-free with Pazuli's travel insurance. Whether you're traveling for business or pleasure, our insurance products provide comprehensive coverage against travel-related risks such as trip cancellations, medical emergencies, and lost luggage, ensuring a stress-free journey wherever you go.
+                    </p>
+                </div>
+                <div class="col-6 pt-5">
+                    <div class="text-wrapper-header">Burning Costs Policies</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Designed to protect against the financial impact of catastrophic events, burning costs policies provide coverage for the immediate costs incurred in the aftermath of a disaster, such as cleanup and temporary relocation expenses.
+                    </p>
+                </div>
+                <div class="col-6 pt-5 ">
+                    <div class="text-wrapper-header">First Loss Policies</div>
+                    <p class="text-wrapper-parag pe-4">
+                        Ideal for clients with high-value assets or properties, first loss policies provide coverage for a specified portion of the total value of the insured assets, offering cost-effective protection against partial losses without the need for full coverage.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="footer p-5">
+        <div class="row">
+            <div class="col-4">
+                <p class="we-re-redefining-what-it-means-to-insure">
+                    We’re redefining what it means to insure.
+                </p>
+                <div class="d-flex pt-5 ps-5">
+                    <img class="logo-copy-png-2" src="./assets/images/logo-copy-png-20.png" />
+                </div>
+
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="reno">
+                                Reno simplifies the chaos and costs of construction by bringing
+                                design, sourcing, and vetted contractors all under one roof.
+                            </div>
+                            <div class="reno-2021">© Reno 2021</div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <ul class="options">
+                            <div class="rule"></div>
+                            <li class="bathrooms">Bathrooms</li>
+                            <li class="kitchens">Kitchens</li>
+                            <li class="backyards">Backyards</li>
+                            <li class="basements">Basements</li>
+                            <li class="how-it-works">How it works</li>
+                            <li class="gallery2">Gallery</li>
+                            <li class="faq">FAQ</li>
+                            <li class="guides">Guides</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="_1-800-234-3432">1 800 234 3432</div>
+                            <div class="hello-reno-com">hello@reno.com</div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="options">
+                            <div class="rule"></div>
+                            <div class="terms-of-use">Terms of Use</div>
+                            <div class="privacy-policy">Privacy Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function scheduleCall() {
+            var targetSection = document.getElementById('footer');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        function home() {
+            var targetSection = document.getElementById('hero');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        function services() {
+            var targetSection = document.getElementById('services');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        function aboutUs() {
+            var targetSection = document.getElementById('about-us');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        function Products() {
+            var targetSection = document.getElementById('productss');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        document.getElementById('viewImagesBtn').addEventListener('click', function () {
+            var imageContainer = document.getElementById('imageContainer');
+            imageContainer.classList.toggle('hidden');
+        });
+
+    </script>
+</body>
+
+</html>
