@@ -37,9 +37,9 @@
 
 <body>
     <div class="main-container d-flex flex-column position-relative">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-css position-fixed w-100 border-bottom border-dark pb-5 pe-0 pt-p" style="z-index: 100;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 border-bottom border-dark pe-0 " style="z-index: 100;">
             <div class="d-flex w-100 justify-content-between ps-5 pe-0 pt-0">
-              <a class="navbar-brand mt-0 pt-0 " href="index.html">                
+              <a class="navbar-brand mt-0 pt-0 " href="index.html">                 
                 <img class="logo-copy-png-1" src="./assets/images/logo-copy-png-10.png" />
               </a>
               <button class="navbar-toggler mb-5 mt-3 me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
                     <a class="nav-link" href="#">Products</a>
                   </li>
                 </ul>
-                <button class="button-new h-100 border-bottom border-dark" style="z-index: 0;" type="submit"  onclick="scheduleCall()">Get in touch</button>
+                <button class="button-new " style="z-index: 0;" type="submit"  onclick="scheduleCall()">Get in touch</button>
                 
               </div>
             </div>
@@ -291,12 +291,12 @@
         </div>
     </div>
     </div>
+    <script src="./plugins/bootstrap-5/js/bootstrap.min.js"></script>
     <script>
         function scheduleCall() {
             var targetSection = document.getElementById('footer');
             targetSection.scrollIntoView({ behavior: 'smooth' });
         }
-
     </script>
 </body>
 
