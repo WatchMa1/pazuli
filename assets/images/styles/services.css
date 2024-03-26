@@ -1,0 +1,157 @@
+.hero-parag{
+    position: relative;
+    max-width: 55%;
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: start;
+  }
+  .text-wrapper-hero {
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 120px;
+    align-self: stretch;
+    margin-top: -1px;
+    color: #000000;
+  }
+  .hero-img{
+    border-radius: 24px;
+    max-width: 70%;
+  }
+  .prod-hero-container{
+    height: 65vh;
+    margin-top: 190px;
+  }
+  .yellow-container{
+    background-color: #ffcb08;
+    border-bottom: 10px solid #3d3310;
+    border-top: 10px solid #3d3310;
+  }
+  .text-wrapper-header {
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    color: #000000;
+    padding-left: 25px;
+    text-align: justify;
+  }
+  
+ .text-wrapper-parag {
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    margin-right: 20px;
+    width: 500px;
+  }
+  .text-wrapper-head{
+    font-family: "Helvetica Neue-Thin", Helvetica;
+    font-weight: 100;
+    font-size: 64px;
+}
+.span{
+    font-weight:600;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+  }
+  .right-yellow{
+    background-color: #ffcb08;
+    padding-top: 50px;
+    width:50%;
+  }
+  .cont-header{
+    font-family: "Helvetica Neue-Thin", Helvetica;
+    font-weight: 100;
+    font-size: 36px;
+  }
+  .containers{
+    margin-top: 215px;
+    margin-left: -90px;
+  }
+  .text-wrapper-parag-white {
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    margin-right: 20px;
+    width: 570px;
+  }
+  .black-yellow-container{
+    height: 130vh;
+  }
+  .member-container{
+    background-color: #000000;
+    border-radius: 24px;
+    width: 493px;
+    height: 915px;
+  }
+  .person{
+    border-radius: 24px;
+    width: 495px;
+    height: 486px;
+    object-fit: cover;
+    background-color: #57595a;
+  }
+  .member-name{
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .member-title{
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 500;
+    color:#ffcb08;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .member-parag{
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .text-wrapper-team {
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 110.4px;
+    align-self: stretch;
+    color: #000000;
+  }
+  .our-team{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
+  }
+  .text-wrapper-key {
+    font-family: "Helvetica Neue-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    width: 700px;
+  }
+  .text-wrapper-head-key{
+    font-family: "Helvetica Neue-Thin", Helvetica;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 180px;
+}
+#services{
+    margin-top: 80px;
+    border-top: 2px dotted #ffcb08;
+}
