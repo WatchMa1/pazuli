@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pazuli-Website</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <link rel="stylesheet" href="./plugins/bootstrap-5/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./plugins/bootstrap-icons/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <style>
@@ -37,35 +35,36 @@
 </head>
 
 <body>
-    <div class="main-container d-flex flex-column position-relative">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 border-bottom border-dark pe-0 " style="z-index: 100;">
-            <div class="d-flex w-100 justify-content-between ps-5 pe-0 pt-0">
-              <a class="navbar-brand mt-0 pt-0 " href="index.html">                 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  w-100 border-bottom border-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-0 pt-0 " href="index.html">                 
                 <img class="logo-copy-png-1" src="./assets/images/logo-copy-png-10.png" />
               </a>
-              <button class="navbar-toggler mb-5 mt-3 me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                  </li>
-                </ul>
-                <button class="button-new " style="z-index: 0;" type="submit"  onclick="scheduleCall()">Get in touch</button>
-                
-              </div>
-            </div>
-          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto ">
+              <li class="nav-item m-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link  active" href="about.html">About</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link active" href="products.html">Products</a>
+              </li>
+            </ul>
+            <button class="button-new " style="z-index: 0;" type="submit"  onclick="scheduleCall()">Get in touch</button>
+          </div>
+          
+        </div>
+      </nav>
+    <div class="main-container d-flex flex-column position-relative">
+     
         <div id="hero" class="hero-container ps-1 pe-5">
             <div class="left-hero">
                 <div class="container7">
@@ -372,6 +371,7 @@
         </div>
     </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
         function scheduleCall() {
             var targetSection = document.getElementById('schedule-call');
